@@ -5,10 +5,9 @@ import java.util.List;
 
 public class Usuario {
 
-    List<String> email_cadastrado = new ArrayList();
-    ArrayList senha_cadastrado = new ArrayList();
-    ArrayList usuario = new ArrayList(Collections.singleton("matheus"));
-
+    List<String> email_cadastrado = new ArrayList(Collections.singleton("matheus@gmail.com"));
+    ArrayList senha_cadastrado = new ArrayList(Collections.singleton("X123456X"));
+    ArrayList<String> usuario = new ArrayList(Collections.singleton("matheus"));
 
     private String nome_usuario;
     private String email;
@@ -37,7 +36,6 @@ public class Usuario {
     public void setSenha(String senha) {
         this.senha = senha;
     }
-
 
 
 }
